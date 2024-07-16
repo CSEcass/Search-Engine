@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input thing</title>
+    <link rel="stylesheet" href="input.css">
+</head>
+<body>
+    <form action="{{ url }}" method="POST">
+        <label for="question">Search Image: </label>
+        <br>
+        <input type="text" id="query" name="query" value="">
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+<div style="display:flex;" >
+    {% for gif in imgData %}
+    <img src="{{gif}}" width="200px"/>
+    {% endfor %}
+</div>
+
+
+</body>
+</html>

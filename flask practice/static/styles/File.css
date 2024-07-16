@@ -1,0 +1,54 @@
+body {
+    letter-spacing: 5px;
+    background-color: #bdbdbd;
+}
+
+h1 {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding-left: 20px;
+    border-color: grey;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: groove;
+    margin-bottom: 0px;
+}
+
+hr { 
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+
+div {
+    background-color: black;
+    color: whitesmoke;
+    padding-left: 20px;
+    border-color: grey;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: groove;
+}
+
+.Special {
+    color: whitesmoke;
+    text-decoration: none;
+    text-decoration-color: grey;
+}
+
+li:hover {
+    padding-left: 10px;
+    color: yellow;
+}
+.Special:hover {
+    color: yellow;
+}
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 200px;
+}
