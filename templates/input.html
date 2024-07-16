@@ -7,19 +7,21 @@
     <link rel="stylesheet" href="input.css">
 </head>
 <body>
-    <form action="{{ url }}" method="POST">
-        <label for="question">Search Image: </label>
-        <br>
-        <input type="text" id="query" name="query" value="">
-        <br>
-        <input type="submit" value="Submit">
-    </form>
+    <div class = 'SEARCH'>
+        <form action="{{ url }}" method="POST">
+            <label for="question">Search Image: </label>
+            <br>
+            <input type="text" id="query" name="query" value="">
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 
-<div style="display:flex;" >
-    {% for gif in imgData %}
-    <img src="{{gif}}" width="200px"/>
-    {% endfor %}
-</div>
+    <div class ='IMAGES' style="display:flex;" >
+        {% for gif in imgData %}
+        <img src="{{gif}}" width="200px"/>
+        {% endfor %}
+    </div>
 
 <!-- oooo a comment -->
 

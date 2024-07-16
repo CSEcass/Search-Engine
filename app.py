@@ -11,6 +11,7 @@ def hello():
 def linkpage():
     return render_template('File.html')
 
+
 @app.route('/gifs')
 def gifs():
     myGifs = [

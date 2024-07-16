@@ -1,5 +1,22 @@
+body {
+   background-color: lightgray;
+}
 div {
    display: flex;
    flex-wrap: wrap;
    justify-content: left;
+}
+.IMAGES{
+   border-radius: 20px;
+   border-color: black;
+   border-style: groove;
+   background-color: grey;
+   border-width: 5px;
+}
+.SEARCH {
+   border-radius: 10px;
+   border-color: red;
+   border-style: groove;
+   background-color: lightcoral;
+   border-width: 5px;
 }
